@@ -1,0 +1,5 @@
+ignore-project: False
+
+
+constraints:
+  zlib +bundled-c-zlib
