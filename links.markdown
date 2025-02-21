@@ -16,6 +16,8 @@ Clubs I've been involved in:
 
 - UBC Women in Computer Science:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[ubcwics.com](https://ubcwics.com)
 - UBC Computer Science Student Society:&nbsp;[ubccsss.org](https://ubccsss.org)
-- UBC Women in Data Science&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[ubcwids.com](https://ubcwids.com)
+- UBC Women in Data Science:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[ubcwids.com](https://ubcwids.com)
 - UBC Queer Coded:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[queercoded.ca](https://queercoded.ca)
 - UBC Pride Collective:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[prideubc.com](https://prideubc.com)
+
+[Source code for this site](https://github.com/araneasweb/golshanica)
