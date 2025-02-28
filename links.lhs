@@ -4,7 +4,9 @@ title: links
 
 My lovely friends:
 
-- Youssef Saleh: [youssefsaleh.com](https://youssefsaleh.com)
+<style> .friends { display: inline-block; width: 14rem;} </style>
+- <span class="friends">Youssef Saleh:</span> [youssefsaleh.com](https://youssefsaleh.com)
+- <span class="friends">Joel Bonnie:</span> [joelexia.net](https://joelexia.net)
 
 Projects I like:
 
