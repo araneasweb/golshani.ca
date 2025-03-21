@@ -6,7 +6,9 @@ My lovely friends:
 
 <style> .friends { display: inline-block; width: 14rem;} </style>
 - <span class="friends">Youssef Saleh:</span> [youssefsaleh.com](https://youssefsaleh.com)
+- <span class="friends">Kevin Liu:</span> [wevie.dev](https://wevie.dev/)
 - <span class="friends">Joel Bonnie:</span> [joelexia.net](https://joelexia.net)
+- <span class="friends">Jade Piramide:</span> [jirami.de](https://jirami.de/)
 
 Projects I like:
 
