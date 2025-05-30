@@ -4,8 +4,11 @@ title: links
 
 My lovely friends:
 
-<style> .friends { display: inline-block; width: 14rem;} </style>
+<style> .friends { display: inline-block; width: 15rem;} </style>
 - <span class="friends">Youssef Saleh:</span> [youssefsaleh.com](https://youssefsaleh.com)
+- <span class="friends">Ron Friedman:</span> [ronf.dev](https://ronf.dev)
+- <span class="friends">Randy Zhu:</span> [randyzhu.com](https://randyzhu.com/)
+- <span class="friends">Maria Ippolito:</span> [mar-i.co](https://mar-i.co/)
 - <span class="friends">Kevin Liu:</span> [wevie.dev](https://wevie.dev/)
 - <span class="friends">Joel Bonnie:</span> [joelexia.net](https://joelexia.net)
 - <span class="friends">Jade Piramide:</span> [jirami.de](https://jirami.de/)
