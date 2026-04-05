@@ -35,23 +35,25 @@
 
 @font-face {
   font-family: "JuliaMono";
-  src: url("/fonts/JuliaMono-Regular.woff2") format("woff2");
-  font-weight: normal;
+  src:
+    local("JuliaMono-Regular"),
+    local("JuliaMono"),
+    url("/fonts/JuliaMono-RegularLatin.woff2") format("woff2");
+  font-weight: 400;
   font-style: normal;
+  font-display: swap;
+  unicode-range: U+0000-00FF;
 }
 
 @font-face {
   font-family: "JuliaMono";
-  src: url("/fonts/JuliaMono-Light.woff2") format("woff2");
-  font-weight: 300;
+  src:
+    local("JuliaMono-Bold"),
+    url("/fonts/JuliaMono-BoldLatin.woff2") format("woff2");
+  font-weight: 700;
   font-style: normal;
-}
-
-@font-face {
-  font-family: "JuliaMono";
-  src: url("/fonts/JuliaMono-Bold.woff2") format("woff2");
-  font-weight: bold;
-  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0000-00FF;
 }
 
 body {
