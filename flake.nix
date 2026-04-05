@@ -5,45 +5,63 @@
 
   outputs = { nixpkgs, ... }:
     let
-      eachSystem = f:
-        nixpkgs.lib.genAttrs nixpkgs.lib.systems.flakeExposed
-          (system: f (import nixpkgs { inherit system; }));
+      lib = nixpkgs.lib;
 
-      mkProject = pkgs:
+      forAllSystems = lib.genAttrs lib.systems.flakeExposed;
+
+      perSystem = system:
         let
+          pkgs = import nixpkgs { inherit system; };
           hpkgs = pkgs.haskellPackages;
-          drv = hpkgs.callCabal2nix "golshanica" ./. { };
+
+          site = hpkgs.callCabal2nix "golshanica" ./. { };
+
+          mkDevApp = name: siteArgs:
+            let
+              script = pkgs.writeShellApplication {
+                inherit name;
+                runtimeInputs = [ pkgs.nix ];
+                text = ''
+                  exec nix develop .#default --command \
+                    cabal run site -- ${lib.escapeShellArgs siteArgs} "$@"
+                '';
+              };
+            in
+            {
+              type = "app";
+              program = lib.getExe script;
+            };
         in
         {
-          inherit hpkgs drv;
+          packages = {
+            default = site;
+          };
+
+          apps = {
+            default = mkDevApp "build-site" [ "build" ];
+            build = mkDevApp "build-site" [ "build" ];
+            raw-watch = mkDevApp "raw-site-watch" [ "watch" ];
+          };
+
+          devShells = {
+            default = hpkgs.shellFor {
+              packages = _: [ site ];
+              withHoogle = true;
+
+              nativeBuildInputs = [
+                hpkgs.cabal-install
+                pkgs.haskell-language-server
+                hpkgs.hlint
+                hpkgs.ormolu
+                hpkgs.ghcid
+              ];
+            };
+          };
         };
     in
     {
-      packages = eachSystem (pkgs:
-        let
-          p = mkProject pkgs;
-        in
-        {
-          default = p.drv;
-        });
-
-      devShells = eachSystem (pkgs:
-        let
-          p = mkProject pkgs;
-        in
-        {
-          default = p.hpkgs.shellFor {
-            packages = _: [ p.drv ];
-            withHoogle = true;
-
-            nativeBuildInputs = [
-              p.hpkgs.cabal-install
-              pkgs.haskell-language-server
-              p.hpkgs.hlint
-              p.hpkgs.ormolu
-              p.hpkgs.ghcid
-            ];
-          };
-        });
+      packages = forAllSystems (system: (perSystem system).packages);
+      apps = forAllSystems (system: (perSystem system).apps);
+      devShells = forAllSystems (system: (perSystem system).devShells);
     };
 }
