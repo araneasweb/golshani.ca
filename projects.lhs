@@ -2,7 +2,7 @@
 title: projects
 ---
 
-Racket-ish Compiler (2026)
+Racket-ish Compiler
 --------------------------
 
 An end-to-end compiler for a Racket-like language in Typed Racket.
@@ -19,24 +19,7 @@ Benchmarked generated binaries against gcc -O2, Racket, and GHC -O2;
 in tested workloads, the compiler produced faster executables with a
 smaller runtime binary than equivalent C -O3 builds.
 
-[link here](REDACTED)
-
-Agentic Research Loop for Nonprofit Newsletters (2026)
-------------------------------------------------------
-
-An agentic research system on GCP that searches the web, evaluates
-source trustworthiness, and generates update newsletters and emails
-for nonprofit campaigns.
-
-Implemented evidence-backed generation workflows in Python,
-TypeScript, and PostgreSQL, restricting outputs to explicitly
-verifiable, source-backed factual claims. Used Vertex AI, Google ADK,
-RAG, Nix, and external APIs to support reliable deployment and
-reusable content-generation pipelines.
-
-[link here](REDACTED)
-
-Capability-Based Multikernel OS (2025)
+Capability-Based Multikernel OS
 --------------------------------------
 
 A Barrelfish-inspired research OS on ARMv8-A, centered on
@@ -54,9 +37,7 @@ Extended Hake to support Nix-based reproducible builds and optimized
 large-frame mapping with a greedy spill strategy delivering nearly
 70× better mapping performance.
 
-[link here](REDACTED)
-
-SQL-like Data Querying DSL (2024)
+SQL-like Data Querying DSL
 ---------------------------------
 
 An extensible SQL-style query language for filtering and aggregating
@@ -67,9 +48,7 @@ supporting pagination and complex predicates. Shipped a
 functional-reactive UI for importing and querying arbitrary datasets
 with a clean end-to-end workflow.
 
-[link here](REDACTED)
-
-Turing Machine Visualiser (2024)
+Turing Machine Visualiser
 --------------------------------
 
 A Haskell + GTK3 visualiser for Turing machines.
@@ -80,9 +59,7 @@ compile-time guarantees for well-formed machines and valid
 transitions. Represented the tape as a lazily-evaluated infinite
 structure to support unbounded execution.
 
-[link here](REDACTED)
-
-SAT-Based Circuit Designer and Simulator (2024)
+SAT-Based Circuit Designer and Simulator
 -----------------------------------------------
 
 An extensible circuit simulator and visual editor built with Prolog,
@@ -94,4 +71,15 @@ simulation engine in C + GTK3 interfacing with the clause database.
 Implemented SAT solving for combinational logic circuits using
 unification and backtracking.
 
-[link here](REDACTED)
+Agentic Research Loop for Nonprofit Newsletters
+------------------------------------------------------
+
+An agentic research system on GCP that searches the web, evaluates
+source trustworthiness, and generates update newsletters and emails
+for nonprofit campaigns.
+
+Implemented evidence-backed generation workflows in Python,
+TypeScript, and PostgreSQL, restricting outputs to explicitly
+verifiable, source-backed factual claims. Used Vertex AI, Google ADK,
+RAG, Nix, and external APIs to support reliable deployment and
+reusable content-generation pipelines.
