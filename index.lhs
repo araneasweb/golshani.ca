@@ -2,10 +2,17 @@
 title: home
 ---
 
-Heya :D I'm Anahita &mdash; a fourth-year computer science student at UBC.
+Heya :D I'm Anahita &mdash; a fourth-year computer science student at UBC and a 
+big fan of programming languages and formal methods. I also really like 
+functional programming.
 
-I have a particular interest in functional programming &mdash; especially 
-Haskell &mdash; and the theory of programming languages.
+I'm currently an undergraduate teaching assistant at UBC for CPSC 210 and a 
+undergraduate research assistant in the 
+[Software Practices Lab](https://spl.cs.ubc.ca/) in the 
+[ARLI](https://williamjbowman.com/arli/index.html) research group working on
+a dependent type preserving compiler framework based on 
+[Edinburgh Logical Framework](https://ncatlab.org/nlab/show/LF).
 
-I'm currently an undergraduate teaching assistant at UBC for CPSC 310 and a 
-volunteer research contributor to the Forja Compiler Toolkit.
+Outside of my education, I enjoy reading, (song)writing, and running.
+
+I hope you enjoy the website :)
