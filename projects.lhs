@@ -2,12 +2,11 @@
 title: projects
 ---
 
-Certifying Typechecker for System F
+Certifying Typechecker for LF 
 -------------------------------------------------------------------------------
 
-A bidirectional typechecker for System F that uses normalisation by evaluation
-for equality checks and generates a declerative derivation tree as a 
-certificate.
+A bidirectional typechecker for LF that uses normalisation by evaluation for 
+equality checks and generates a declerative derivation tree as a certificate.
 
 Public codebaase soon!
 
