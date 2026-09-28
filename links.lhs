@@ -10,7 +10,7 @@ title: links
 | Chester J. F. Gould  |     | [chestergould.ca](https://chestergould.ca/)           | 
 | Hanson Sun           |     | [hanson-sun](https://hanson-sun.github.io/)           |
 | Hassaan Mohsin       |     | [hassaan.foo](https://hassaan.foo/)                   |
-| Hasti Toossi         |     | [hasti2c.gh.io](https://hasti2c.github.io/)           |
+| Hasti Toossi         |     | [hasti2c](https://hasti2c.github.io/)                 |
 | JJ James             |     | [toki.la](https://toki.la/)                           |
 | Jasper Geer          |     | [jaspergeer.com](https://www.jaspergeer.com/)         |
 | Joel Bonnie          |     | [joelexia.net](https://joelexia.net)                  |
