@@ -4,23 +4,25 @@ title: links
 
 **My lovely friends**:
 
-|                |     |                                              |
-| -------------- | --- | -------------------------------------------- |
-| Youssef Saleh  |     | [youssefsaleh.com](https://youssefsaleh.com) |
-| Ron Friedman   |     | [ronf.dev](https://ronf.dev)                 |
-| Randy Zhu      |     | [randyzhu.com](https://randyzhu.com/)        |
-| Maria Ippolito |     | [mar-i.co](https://mar-i.co/)                |
-| Kevin Liu      |     | [wevie.dev](https://wevie.dev/)              |
-| Joel Bonnie    |     | [joelexia.net](https://joelexia.net)         |
-| Jade Piramide  |     | [jirami.de](https://jirami.de/)              |
-
-**Projects I like**:
-
-|       |     |                                                        |
-| ----- | --- | ------------------------------------------------------ |
-| frege |     | [github](https://github.com/Frege/frege)               |
-| lix   |     | [lix.systems](https://git.lix.systems/lix-project/lix) |
-| nvf   |     | [github](https://github.com/NotAShelf/nvf)             |
+|                      |     |                                                       |
+| ---------------------| --- | ----------------------------------------------------- |
+| Ari Prakash          |     | [ari.foo](https://ari.foo/)                           |
+| Chester J. F. Gould  |     | [chestergould.ca](https://chestergould.ca/)           | 
+| Hanson Sun           |     | [hanson-sun](https://hanson-sun.github.io/)           |
+| Hassaan Mohsin       |     | [hassaan.foo](https://hassaan.foo/)                   |
+| Hasti Toossi         |     | [hasti2c.gh.io](https://hasti2c.github.io/)           |
+| JJ James             |     | [toki.la](https://toki.la/)                           |
+| Jasper Geer          |     | [jaspergeer.com](https://www.jaspergeer.com/)         |
+| Joel Bonnie          |     | [joelexia.net](https://joelexia.net)                  |
+| Kevin Liu            |     | [wevie.dev](https://wevie.dev/)                       |
+| Paulette Koronkevich |     | [koronkevi.ch](https://koronkevi.ch/)                 |
+| Randy Zhu            |     | [randyzhu.com](https://randyzhu.com/)                 |
+| Ron Friedman         |     | [ronf.dev](https://ronf.dev)                          |
+| Sai Divvela          |     | [thedeveloper101](https://thedeveloper101.github.io/) |
+| Sean Bocirnea        |     | [passingti.me](https://passingti.me/)                 |
+| Selene Wu            |     | [selene.foo](https://selene.foo/)                     |
+| Youssef Saleh        |     | [youssefsaleh.com](https://youssefsaleh.com)          |
+| Yuuta Liang          |     | [yuuta.moe](https://yuuta.moe/)                       |
 
 **Clubs I've been involved in**:
 
