@@ -14,6 +14,7 @@ title: links
 | JJ James             |     | [toki.la](https://toki.la/)                           |
 | Jasper Geer          |     | [jaspergeer.com](https://www.jaspergeer.com/)         |
 | Joel Bonnie          |     | [joelexia.net](https://joelexia.net)                  |
+| Keara Hill           |     | [landshark.digital](https://landshark.digital/)       |
 | Kevin Liu            |     | [wevie.dev](https://wevie.dev/)                       |
 | Paulette Koronkevich |     | [koronkevi.ch](https://koronkevi.ch/)                 |
 | Randy Zhu            |     | [randyzhu.com](https://randyzhu.com/)                 |
