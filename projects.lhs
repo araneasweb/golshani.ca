@@ -8,7 +8,7 @@ Certifying Typechecker for LF
 A bidirectional typechecker for LF that uses normalisation by evaluation for 
 equality checks and generates a declerative derivation tree as a certificate.
 
-Public codebaase soon!
+Public codebase soon!
 
 Racket-ish Compiler
 -------------------------------------------------------------------------------
@@ -16,7 +16,7 @@ Racket-ish Compiler
 An end-to-end compiler for a Racket-like language in Typed Racket with typed IRs
 and type preservation for those IRs.
 
-The typed IR definitioons and some macros are 
+The typed IR definitions and some macros are 
 [here](https://github.com/araneasweb/racketish-types)
 
 Capability-Based Multikernel OS

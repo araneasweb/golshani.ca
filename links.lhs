@@ -16,6 +16,7 @@ title: links
 | Joel Bonnie          |     | [joelexia.net](https://joelexia.net)                  |
 | Keara Hill           |     | [landshark.digital](https://landshark.digital/)       |
 | Kevin Liu            |     | [wevie.dev](https://wevie.dev/)                       |
+| Maria Ippolito       |     | [mar-i.co](https://mar-i.co/)                         |
 | Paulette Koronkevich |     | [koronkevi.ch](https://koronkevi.ch/)                 |
 | Randy Zhu            |     | [randyzhu.com](https://randyzhu.com/)                 |
 | Ron Friedman         |     | [ronf.dev](https://ronf.dev)                          |
